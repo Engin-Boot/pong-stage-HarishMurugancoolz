@@ -1,8 +1,8 @@
-# -give-this-module-a-name
+# Play Area
 
 ## Feature
 
-What part of the game does this module deliver?
+It initiates the game.
 
 ## Acceptance Criteria
 
