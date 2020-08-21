@@ -8,10 +8,10 @@ It initiates the game.
 
 ### Scenario: -describe-a-scenario-of-this-module
 
-  Given -give-initial-values-and-conditions
+Given -give-initial-values-and-conditions
 
-  When -event-happens
+When -event-happens
 
-  Then -module-does-this
+Then -module-does-this
 
 ### -add-scenario-if-needed
