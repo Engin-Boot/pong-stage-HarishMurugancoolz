@@ -8,7 +8,9 @@ start game enters into the game play area window.
 
 ### Scenario:clicking the start game button
 
-  Given the game menu is visible and start game button is visible and the system is functioning
+  Given the game menu is visible 
+  and start game button is visible 
+  and the system is functioning
 
   When the user clicks the start game button
 
