@@ -1,4 +1,4 @@
-# displayWinner
+# Display Winner
 
 ## Feature
 
