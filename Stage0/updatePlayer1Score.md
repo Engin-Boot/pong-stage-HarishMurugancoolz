@@ -15,4 +15,3 @@ It initiates the game.
   Then -module-does-this
 
 ### -add-scenario-if-needed
-
