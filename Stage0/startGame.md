@@ -14,5 +14,4 @@ start game enters into the game play area window.
 
   When the user clicks the start game button
 
-  Then playArea module gets triggered
-  
+  Then playArea module gets triggered.
