@@ -37,4 +37,3 @@ Determines the motion of ball
   When ball is moving towards wall
 
   Then check for wall collision module gets executed.
-  
