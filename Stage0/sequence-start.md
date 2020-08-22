@@ -5,6 +5,7 @@
 ```mermaid
 MenuPage->>+StartGame:player clicks the start button
 MenuPage->>+ExitGame:player clicks the exit button
+StartGame->>+BallMovement:initiating ball movement
 ```
 
 ## Movement Initiation
