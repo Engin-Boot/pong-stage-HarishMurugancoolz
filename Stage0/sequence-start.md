@@ -13,7 +13,7 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-	BallMovement->>+CheckBallEscapedPlayer1Slab:moving towards player 1 slab
+  BallMovement->>+CheckBallEscapedPlayer1Slab:moving towards player 1 slab
   BallMovement->>+CheckBallEscapedPlayer2Slab:moving towards player 2 slab
   BallMovement->>+CheckForWallCollisions:moving towards wall
   CheckBallEscapedPlayer1Slab->>+UpdatePlayer2Score:if ball escaped player 1 Slab
