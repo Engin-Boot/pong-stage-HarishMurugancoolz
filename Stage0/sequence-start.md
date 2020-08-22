@@ -6,6 +6,7 @@
 MenuPage->>+StartGame:player clicks the start button
 MenuPage->>+ExitGame:player clicks the exit button
 ```
+
 ## Movement Initiation
 
 -describe-how-modules-interact-to-make-the-ball-move
