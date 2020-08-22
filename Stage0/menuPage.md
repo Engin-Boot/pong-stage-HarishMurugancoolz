@@ -2,16 +2,22 @@
 
 ## Feature
 
-It initiates the game.
+This page as start game and exit game functionality
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: when player clicks start game
 
-Given -give-initial-values-and-conditions
+Given the system is active
 
-When -event-happens
+When player clicks the start game button
 
-Then -module-does-this
+Then start Game module gets executed.
 
-### -add-scenario-if-needed
+### -when player clicks exit game
+
+Given the system is active
+
+When player clicks the exit game button
+
+Then exit Game module gets executed.
