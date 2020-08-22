@@ -13,7 +13,7 @@ Checking which player won the game
 
   When player 1 scored 50 points
 
-  Then update the player 1
+  Then the player 1
   and player 2 score is set
   to zero and declare the
   display message as player 1 won.
@@ -25,7 +25,7 @@ Checking which player won the game
 
   When player 2 scored 50 points
 
-  Then update the player 1
+  Then the player 1
   and player 2 score is set
   to zero and declare the
   display message as player 2 won.
