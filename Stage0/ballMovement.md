@@ -34,7 +34,7 @@ Determines the motion of ball
   and ball got reflected from
   either of the slabs.
 
-  When ball is moving towards wall 
+  When ball is moving towards wall
 
   Then check for wall collision module gets executed.
   
