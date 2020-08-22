@@ -2,16 +2,17 @@
 
 ## Feature
 
-It initiates the game.
+check for wall collision
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: Ball hits the wall
 
-  Given -give-initial-values-and-conditions
+  Given the ball is in movement
+  and player 1 and player 2
+  are active
 
-  When -event-happens
+  When ball hits the wall
 
-  Then -module-does-this
-
-### -add-scenario-if-needed
+  Then reflect the ball perpendicular
+  to opposite direction.
