@@ -25,4 +25,4 @@ checks if ball escaped player 2 slab
   When ball is hits player 2 slab.
 
   Then reflect the ball towards the player 1 slab.
-  
+ 
