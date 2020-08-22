@@ -2,16 +2,16 @@
 
 ## Feature
 
-It initiates the game.
+checks if ball escaped player 2 slab
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: Ball escaping player 2 slab
 
-  Given -give-initial-values-and-conditions
+  Given the ball is moving
+  and player 1 and player 2
+  are active.
 
-  When -event-happens
+  When ball is escaping player 2 slab.
 
-  Then -module-does-this
-
-### -add-scenario-if-needed
+  Then update player 1 score module gets executed.
