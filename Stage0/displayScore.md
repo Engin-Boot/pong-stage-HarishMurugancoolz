@@ -2,16 +2,16 @@
 
 ## Feature
 
-It initiates the game.
+Displays the score of player 1 and player 2
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: players score get updated
 
-  Given -give-initial-values-and-conditions
+  Given the player 1 or
+  player 2 missed the ball
 
-  When -event-happens
+  When players score got updated
 
-  Then -module-does-this
-
-### -add-scenario-if-needed
+  Then this module displays the each
+  player score on the screen.
