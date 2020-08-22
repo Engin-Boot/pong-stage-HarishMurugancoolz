@@ -14,7 +14,7 @@ Determines the motion of ball
 
   When ball moves towards player 1 slab.
 
-  Then check ball escaped player 1 slab module.
+  Then check ball escaped player 1 slab module is triggered
 
 ### Scenario: Ball moves towards player 2 slab
 
@@ -24,5 +24,5 @@ Determines the motion of ball
 
   When ball moves towards player 2 slab.
 
-  Then check ball escaped player 2 slab module.
+  Then check ball escaped player 2 slab module is triggered
   
