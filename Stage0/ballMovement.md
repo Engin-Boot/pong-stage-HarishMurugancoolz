@@ -2,16 +2,27 @@
 
 ## Feature
 
-It initiates the game.
+Determines the motion of ball
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: Ball moves towards player 1 slab
 
-  Given -give-initial-values-and-conditions
+  Given the ball is moving
+  and player 1
+  and player 2 are active.
 
-  When -event-happens
+  When ball moves towards player 1 slab.
 
-  Then -module-does-this
+  Then check ball escaped player 1 slab module.
 
-### -add-scenario-if-needed
+### Scenario: Ball moves towards player 2 slab
+
+  Given the ball is moving
+  and player 1
+  and player 2 are active.
+
+  When ball moves towards player 2 slab.
+
+  Then check ball escaped player 2 slab module.
+  
