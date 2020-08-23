@@ -20,6 +20,22 @@ sequenceDiagram
   CheckBallEscapedPlayer1Slab->>+UpdatePlayer1Score:if ball escaped player 2 Slab
 ```
 
-## One score
+## Points updation and Winner Declaration
 
--describe-how-the-modules-interact-to-record-scores
+```mermaid
+sequenceDiagram
+  UpdatePlayer1Score->>+DisplayScore:displays the player 1 score
+  UpdatePlayer2Score->>+DisplayScore:displays the player 2 score
+	UpdatePlayer1Score->>+CheckForWin:checks for win
+  UpdatePlayer2Score->>+CheckForWin:checks for win
+  CheckForWin->>+DisplayWinner:display winner if player scored 50 points
+  DisplayWinner->>+UpdatePlayer1Score:update player1 score to zero
+  DisplayWinner->>+UpdatePlayer2Score:update player2 score to zero
+  DisplayWinner->>+MenuPage:back to menu page
+  CheckForWin->>+BallMovement:No player Won the game
+```
+## Exit Game
+```mermaid
+sequenceDiagram
+  MenuPage->>+ExitGame:clicks exit button.
+```
