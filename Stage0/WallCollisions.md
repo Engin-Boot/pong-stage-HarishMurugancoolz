@@ -1,4 +1,4 @@
-# Check For Wall Collisions
+# Wall Collisions
 
 ## Feature
 
