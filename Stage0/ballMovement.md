@@ -26,7 +26,7 @@ Determines the motion of ball
 
   Then check ball escaped player 2 slab module is triggered
   
-### Scenario: Ball moving towards the wall
+### Scenario: Ball hits the wall
 
   Given the ball is moving
   and player 1
@@ -34,6 +34,6 @@ Determines the motion of ball
   and ball got reflected from
   either of the slabs.
 
-  When ball is moving towards wall
+  When ball hits wall
 
-  Then check for wall collision module gets executed.
+  Then wall collision module gets executed.
