@@ -17,7 +17,7 @@ sequenceDiagram
   BallMovement->>+CheckBallEscapedPlayer2Slab:moving towards player 2 slab
   BallMovement->>+CheckForWallCollisions:moving towards wall
   CheckBallEscapedPlayer1Slab->>+UpdatePlayer2Score:if ball escaped player 1 Slab
-  CheckBallEscapedPlayer1Slab->>+UpdatePlayer1Score:if ball escaped player 2 Slab
+  CheckBallEscapedPlayer2Slab->>+UpdatePlayer1Score:if ball escaped player 2 Slab
 ```
 
 ## Points updation and Winner Declaration
@@ -26,7 +26,7 @@ sequenceDiagram
 sequenceDiagram
   UpdatePlayer1Score->>+DisplayScore:displays the player 1 score
   UpdatePlayer2Score->>+DisplayScore:displays the player 2 score
-	UpdatePlayer1Score->>+CheckForWin:checks for win
+  UpdatePlayer1Score->>+CheckForWin:checks for win
   UpdatePlayer2Score->>+CheckForWin:checks for win
   CheckForWin->>+DisplayWinner:display winner if player scored 50 points
   DisplayWinner->>+UpdatePlayer1Score:update player1 score to zero
@@ -34,6 +34,7 @@ sequenceDiagram
   DisplayWinner->>+MenuPage:back to menu page
   CheckForWin->>+BallMovement:No player Won the game
 ```
+
 ## Exit Game
 ```mermaid
 sequenceDiagram
