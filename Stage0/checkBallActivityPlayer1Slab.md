@@ -1,8 +1,8 @@
-# Check Ball Escaped Player 1 Slab
+# Check Ball Activity Player 1 Slab
 
 ## Feature
 
-checks if ball escaped player 1 slab
+checks if ball escaped player 1 slab and if ball hits player 1 slab
 
 ## Acceptance Criteria
 
